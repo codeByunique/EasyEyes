@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>EasyEyes</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      padding: 15px;
+      width: 260px;
+      background-color: #2a2727;
+      border-radius: 10px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+    }
+    button, select {
+      margin: 10px 0;
+      width: 100%;
+      padding: 12px;
+      font-size: 16px;
+      border-radius: 8px;
+      border: none;
+      background-color: #96bbc7;
+      color: #000000;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+    button:hover {
+      background-color: #758a8a;
+    }
+    select {
+      background-color: #d7edef;
+      color: #000;
+      border: 1px solid #f40000;
+      padding: 10px;
+      border-radius: 8px;
+    }
+    h2 {
+      color: #ebebeb;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+  </style>
+</head>
+<body>
+  <h2>👁️ EasyEyes</h2>
+
+  <button id="increaseText">🔍 Increase Text</button>
+  <button id="resetText">🔄 Original Size</button>
+
+  <select id="language">
+    <option value="hi">Hindi</option>
+    <option value="en">English</option>
+    <option value="bn">Bengali</option>
+    <option value="gu">Gujarati</option>
+    <option value="ta">Tamil</option>
+  </select>
+
+  <button id="translateSelected">🎯 Translate Selected</button>
+  <button id="readSelected">🖍️ Read Selected</button>
+  <button id="stopSpeech">🛑 Stop Speech</button>
+
+  <script src="popup.js"></script>
+</body>
+</html>
