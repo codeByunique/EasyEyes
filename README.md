@@ -21,8 +21,5 @@ EasyEyes is a Chrome extension designed to make web browsing easier and more com
 
 ## 👥 Contributors
 
-- Atabul 
-- Prince Singhel @Prinzsinghal
+- Thanks to [@Prinzsinghal](https://github.com/Prinzsinghal) for the contribution! 🚀
 - Divya
-
-
